@@ -38,6 +38,7 @@ app.js  node_modules       package.json  routes
 bin     package-lock.json  public        views
 
 root@node-app:~/apps/menkyo-v2# pm2 stop app.js 
+
 [PM2] Applying action stopProcessId on app [app.js](ids: [ 0 ])
 [PM2] [app](0) ✓
 ┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐
@@ -47,6 +48,7 @@ root@node-app:~/apps/menkyo-v2# pm2 stop app.js
 └────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘
 
 root@node-app:~/apps/menkyo-v2# pm2 start app.js 
+
 [PM2] Applying action restartProcessId on app [app](ids: [ 0 ])
 [PM2] [app](0) ✓
 [PM2] Process successfully started
